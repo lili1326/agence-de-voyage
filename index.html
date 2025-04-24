@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Voyages - Agence</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1> Agence de Voyage</h1>
+
+    <div class="filters">
+      <input type="text" id="searchInput" placeholder="🔍 Rechercher un titre..." />
+      <select id="filterPays">
+        <option value=""> Tous les pays</option>
+      </select>
+    </div>
+
+    <table id="voyagesTable">
+      <thead>
+        <tr>
+          <th>Titre</th>
+          <th>Pays</th>
+          <th>Prix (€)</th>
+          <th>Places</th>
+          <th>Dates disponibles</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
